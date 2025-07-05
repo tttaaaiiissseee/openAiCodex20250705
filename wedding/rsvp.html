@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ご出席の確認</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo-link"><img src="assets/logo.svg" alt="Logo" class="logo"></a>
+  </header>
+  <main>
+    <h2>出席のご回答</h2>
+    <form action="thankyou.html" method="get" onsubmit="return validateForm()">
+      <label for="name">お名前</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="attendance">出席/欠席</label>
+      <select id="attendance" name="attendance">
+        <option value="yes">出席</option>
+        <option value="no">欠席</option>
+      </select>
+
+      <button type="submit" class="btn">送信</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2024 John &amp; Jane</p>
+  </footer>
+</body>
+</html>

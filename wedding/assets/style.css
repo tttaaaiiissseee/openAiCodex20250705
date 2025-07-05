@@ -1,0 +1,59 @@
+/* ベーススタイル */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+}
+header, footer {
+  background: #fbeaea;
+  text-align: center;
+  padding: 1rem;
+}
+.logo {
+  width: 120px;
+}
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.hero-image {
+  max-width: 400px;
+  width: 100%;
+}
+.btn {
+  display: inline-block;
+  background: #eabec9;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+form {
+  max-width: 400px;
+  margin: 1rem auto;
+  background: #fff0f2;
+  padding: 1rem;
+  border-radius: 8px;
+}
+form label {
+  display: block;
+  margin-top: 1rem;
+}
+form input, form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  box-sizing: border-box;
+}
+.center {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
